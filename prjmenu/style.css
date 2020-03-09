@@ -1,0 +1,83 @@
+/* color palette used: http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF*/
+
+
+
+#header {
+	background-color: #66CCFF;
+}
+body {
+    background-color: white;
+    font-family: sans-serif;
+	margin: 0;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.container{
+	margin:12px;
+}
+
+.span-demo{
+	width:44%;
+	margin-left:3%;
+	display: inline-block;
+}
+
+.my-info{
+	margin-left:5px; float: right; width:78%; font-size:20px; padding-top: 40px;
+}
+
+
+table, td, tr {
+    border: 0px solid black;
+    text-align: center;
+
+}
+td{
+	width:300px;
+}
+ .skip a {
+		display: inline;
+		position: absolute; width: 14em; left: -200em
+		text-decoration:none; }
+.skip a:focus {
+		position: absolute; left: 0.5em;
+		border: solid #333 2px; color: #fff; background: #555}
+@media print {
+  .dont-print {
+    display: none;
+  }
+}
